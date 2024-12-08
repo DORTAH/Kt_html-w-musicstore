@@ -73,6 +73,7 @@ body {
 .category-title {
     color: var(--color-grey-3);
     font-size: var(--size-h4);
+    font-weight: 700;
 }
 
 .card {
@@ -81,13 +82,43 @@ body {
     box-shadow: var(--shadow);
 }
 
+.card2 {
+    border-radius: 12px;
+    width: 100%;
+    padding: 40px 40px;
+}
+
+.card3 {
+    border-radius: 12px;
+    width: 100%;
+    padding: 5px 75px;
+}
+
 .card-header {
+    width: 350px;
     height: 252px;
+    background: var(--color-gradient);
+}
+
+.card-header2 {
+    width: 350px;
+    height: 252px;
+    background: var(--color-gradient);
+}
+
+.card-header3 {
+    width: 327px;
+    height: 311px;
     background: var(--color-gradient);
 }
 
 .card-content {
     padding: 16px 24px 24px;
+}
+
+.card-content2 {
+    padding: 16px 24px 24px;
+    background-color: #252525;
 }
 
 .card-title {
@@ -97,6 +128,119 @@ body {
     font-weight: 600;
 }
 
+.card-title2 {
+    color: var(--color-grey-4);
+    font-family: var(--font-headings);
+    font-size: var(--size-h6);
+    font-weight: 600;
+}
+
+.card-title3 {
+    font-family: var(--font-headings);
+    font-size: var(--size-h6);
+    font-weight: 600;
+}
+
 .card-description {
     color: var(--color-grey-2);
+    position: relative;
+    top: -10px;
+    font-family: var(--font-headings);
+}
+
+.card-description2 {
+    color: var(--color-grey-2);
+    position: relative;
+    top: 5px;
+    font-family: var(--font-headings);
+}
+
+.card-description3 {
+    color: #C4C4C4;
+    position: relative;
+    top: 5px;
+    font-family: var(--font-headings);
+}
+
+.redBlock {
+    width: 328px;
+    height: 168px;
+}
+
+.newProducts {
+    position:relative;
+    top:-20px;
+
+}
+
+.card-price {
+    color: black;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: -20px;
+    font-family: var(--font-headings);
+    font-size: var(--size-h6);
+    font-weight: 600;   
+}
+
+.card-price2 {
+        color: black;
+        display: flex;
+        position: relative;
+        left: 250px;
+        top: -20px;
+        font-family: var(--font-headings);
+        font-size: var(--size-h6);
+        font-weight: 600;   
+}
+
+.popularFinds {
+    position:relative;
+    top:-20px;
+    right: -20px
+
+}
+
+.gearHeads {
+    position:relative;
+    
+
+}
+
+.card-colors {
+    border-width: 0px;
+    color: var(--color-grey-2);
+}
+
+.nav-footer {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-grey-3);
+    height: 25vh;
+    padding-top: 15px;
+    max-height: 236px;
+}
+
+.copyright {
+    background-color: var(--color-grey-4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 4vh;
+    padding-top: 5px;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px ;
+    gap: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
